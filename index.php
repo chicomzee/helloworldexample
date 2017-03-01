@@ -29,8 +29,8 @@ echo "<tr><td>".$firstname3."</td><td>".$surname3."</td></tr>\r\n";
 echo "(tr><td>".$firstname4."</td><td>".$surname4."</td></tr>\r\n";
 echo "<tr><td>".$firstname5."</td><td>".$surname5."</td></tr>\r\n";
 echo "</table>";
-
-
+?>
+    <?php
 $name1 ="spec";
 $name2 ="mug";
 $name2 ="sussage roll";
