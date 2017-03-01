@@ -41,6 +41,20 @@ if($name1=="spec"){
 else{
     print"go to th next option";
 }
+
+if($name2=="mug"){
+    print "you must be over 18";
+}
+else{
+    print"go to th next option";
+}
+
+if($name1=="sussage roll"){
+    print "you must be over 21";
+}
+else{
+    print"thank you";
+}
 ?>
 </p>
      </body>
