@@ -26,10 +26,21 @@ echo "<tr><td>firstname</td><td>surname</td></tr>";
 echo "<tr><td>".$firstname1."</td><td>".$surname1."</td></tr>\r\n";
 echo "<tr><td>".$firstname2."</td><td>".$surname2."</td></tr>\r\n";
 echo "<tr><td>".$firstname3."</td><td>".$surname3."</td></tr>\r\n";
-echo "<tr><td>".$firstname4."</td><td>".$surname4."</td></tr>\r\n";
+echo "(tr><td>".$firstname4."</td><td>".$surname4."</td></tr>\r\n";
 echo "<tr><td>".$firstname5."</td><td>".$surname5."</td></tr>\r\n";
 echo "</table>";
 
+
+$name1 ="spec";
+$name2 ="mug";
+$name2 ="sussage roll";
+
+if($name1=="spec"){
+    print "you must be over 16";
+}
+else{
+    print"go to th next option";
+}
 ?>
 </p>
      </body>
