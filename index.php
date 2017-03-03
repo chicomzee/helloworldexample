@@ -49,7 +49,7 @@ unset($myArray[2]); // removes the array in position 2
 <?php
 
 for ($a = 1; $a < 10; $a=$a+1)
-{        print "<p>Hello! </p>";       }
+{        echo "<p>Hello! </p>";       }
 ?>
 </p>
      </body>
