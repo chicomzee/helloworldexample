@@ -33,7 +33,7 @@ echo "</table>";
     <?php
 $myArray = array("do", "re", "mi"); // declares the array
 
-echo $myArray[0];// outputs "do"
+echo"<br>".$myArray[0]."<pr>";// outputs "do"
 
 $myArray[1] = "la"; // modifies position 1 (re)
 
