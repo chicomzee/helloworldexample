@@ -48,9 +48,17 @@ unset($myArray[2]); // removes the array in position 2
 
 <?php
 
-for ($a = 1; $a < 10; $a=$a+1)
+for ($a = 1; $a <= 10; $a=$a+1)
 {        echo "<p>Hello! $a</p>";       }
+
+for ($a = 1; $a <= 30; $a=$a+1)
+{
+    if (fmod ($a, 2) ==0 ) {echo "<p> spec are available </p>";}
+    if (fmod ($a, 3) ==0 ) {echo "<p> mug are available </p>";}
+    if (fmod ($a, 4) ==0 ) {echo "<p> sussage roll are available </p>";}
+}
 ?>
+
 </p>
      </body>
 </html>
