@@ -33,7 +33,7 @@ echo "</table>";
     <?php
 $name1 ="spec";
 $name2 ="mug";
-$name2 ="sussage roll";
+$name3 ="sussage roll";
 
 if($name1=="spec"){
     print "you must be over 16";
@@ -49,7 +49,7 @@ else{
     print"go to th next option";
 }
 
-if($name1=="sussage roll"){
+if($name3=="sussage roll"){
     print "you must be over 21";
 }
 else{
