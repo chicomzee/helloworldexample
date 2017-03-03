@@ -53,7 +53,7 @@ for ($a = 1; $a <= 10; $a=$a+1)
 
 for ($a = 1; $a <= 30; $a=$a+1)
 {
-    if (fmod ($a, 2) ==0 ) {echo "<p> spec are available on day 342 </p>";}
+    if (fmod ($a, 2) ==0 ) {echo "<p> spec are available on day $a </p>";}
     if (fmod ($a, 3) ==0 ) {echo "<p> mug are available </p>";}
     if (fmod ($a, 4) ==0 ) {echo "<p> sussage roll are available </p>";}
 }
