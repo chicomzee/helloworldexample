@@ -37,24 +37,26 @@ $name3 ="sussage roll";
 
 if($name1=="spec"){
     print "you must be over 16\r\n";
+    echo "<p>";
 }
 else{
-    print"go to th next option\r\n";
+    print"go to th next option <p> \r\n";
 }
 
 if($name2=="mug"){
-    print "you must be over 18\r\n";
+    print "you must be over 18 <p> \r\n";
 }
 else{
     print"go to th next option\r\n";
 }
 
 if($name3=="sussage roll"){
-    print "you must be over 21\r\n";
+   print "you must be over 21\r\n";
 }
 else{
-    print"thank you\r\n ";
+    print "thank you\r\n ";
 }
+print("the end");
 ?>
 </p>
      </body>
