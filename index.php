@@ -31,6 +31,17 @@ echo "<tr><td>".$firstname5."</td><td>".$surname5."</td></tr>\r\n";
 echo "</table>";
 ?>
     <?php
+$myArray = array("do", "re", "mi"); // declares the array
+
+echo $myArray[0];// outputs "do"
+
+$myArray[1] = "la"; // modifies position 1 (re)
+
+echo $myArray[1];// outputs "la"
+
+unset($myArray[2]); // removes the array in position 2
+
+
 $name1 ="spec";
 $name2 ="mug";
 $name3 ="sussage roll";
@@ -41,7 +52,7 @@ if($name1=="spec"){
     echo "<br>".$cal1."<p>";
 }
 else{
-    print"go to th next option <p> \r\n";
+    print"go to the next option <p> \r\n";
 }
 
 if($name2=="mug"){
