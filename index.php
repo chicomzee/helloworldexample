@@ -53,7 +53,7 @@ if($name3=="sussage roll"){
     print "you must be over 21\r\n";
 }
 else{
-    print"thank you\r\n";
+    print"thank you\r\n ";
 }
 ?>
 </p>
