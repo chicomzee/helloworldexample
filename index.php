@@ -37,7 +37,7 @@ echo $myArray[0]."<br>";// outputs "do"
 
 $myArray[1] = "la"; // modifies position 1 (re)
 
-echo $myArray[1];// outputs "la"
+echo $myArray[1]."<br>";// outputs "la"
 
 unset($myArray[2]); // removes the array in position 2
 
