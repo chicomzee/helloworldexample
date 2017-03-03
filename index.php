@@ -36,42 +36,14 @@ $myArray = array("spec", "mug", "sussage roll"); // declares the array
 foreach ($myArray as $x) {
     print "<p>$x</p>";         }
 
-echo $myArray[0]."<>";// outputs "spec"
+echo $myArray[0]."<br>";// outputs "spec"
 
-$myArray[1] = "la"; // modifies position 1 (re)
+$myArray[1] = "hug"; // modifies position 1 (mug)
 
-echo $myArray[1]."<br>";// outputs "la"
+echo $myArray[1]."<br>";// outputs "mug"
 
 unset($myArray[2]); // removes the array in position 2
 
-
-$name1 ="spec";
-$name2 ="mug";
-$name3 ="sussage roll";
-
-if($name1=="spec"){
-    print "you must be over 16\r\n";
-    $cal1=8*9;
-    echo "<br>".$cal1."<p>";
-}
-else{
-    print"go to the next option <p> \r\n";
-}
-
-if($name2=="mug"){
-    print "you must be over 18 <p> \r\n";
-}
-else{
-    print"go to th next option\r\n";
-}
-
-if($name3=="sussage roll"){
-   print "you must be over 21 <p>\r\n";
-}
-else{
-    print "thank you\r\n ";
-}
-print("the end");
 ?>
 </p>
      </body>
