@@ -31,9 +31,12 @@ echo "<tr><td>".$firstname5."</td><td>".$surname5."</td></tr>\r\n";
 echo "</table>";
 ?>
     <?php
-$myArray = array("do", "re", "mi"); // declares the array
+$myArray = array("spec", "mug", "sussage roll"); // declares the array
 
-echo $myArray[0]."<br>";// outputs "do"
+foreach ($myArray as $x) {
+    print "<p>$x</p>";         }
+
+echo $myArray[0]."<>";// outputs "spec"
 
 $myArray[1] = "la"; // modifies position 1 (re)
 
