@@ -37,6 +37,7 @@ $name3 ="sussage roll";
 
 if($name1=="spec"){
     print "you must be over 16\r\n";
+    $cal1=8*9;
     echo "<p>";
 }
 else{
