@@ -45,6 +45,12 @@ echo $myArray[1]."<br>";// outputs "mug"
 unset($myArray[2]); // removes the array in position 2
 
 ?>
+
+<?php
+
+for ($a = 1; $a < 10; $a=$a+1)
+{        print "<p>Hello! $a</p>";       }
+?>
 </p>
      </body>
 </html>
